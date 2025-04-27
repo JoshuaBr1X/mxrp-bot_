@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "discord.js": "^14.19.1",
+    "glob": "^11.0.2",
+    "module-alias": "^2.2.3",
+    "ora": "^8.2.0",
+    "prettier": "^3.5.3"
+  },
+  "name": "mxrp-bot_",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.js",
+    "prettier": "prettier --write '**/*.js' '**/*.json"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
